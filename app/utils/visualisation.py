@@ -5,5 +5,6 @@ def generate_candlestick(data, title, x_label, y_label):
                                          open=data['Open'],
                                          high=data['High'],
                                          low=data['Low'],
-                                         close=data['Close'])])
-    
+                                         close=data['Close'])
+                        ])
+    return fig.to_json()
