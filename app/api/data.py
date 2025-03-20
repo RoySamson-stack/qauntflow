@@ -1,5 +1,5 @@
 from flask import Blueprint, jsonify, request
-from app.utils.data.fetcher import fetch_data
+from app.utils.data_fetcher import fetch_data
 
 
 data_blueprint = Blueprint('data', __name__)
