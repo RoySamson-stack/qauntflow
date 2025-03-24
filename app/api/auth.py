@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from flask_jwt_extended import create_access_token
-from . import api_blueprint  # Import the blueprint
+from . import api_blueprint  
 
 @api_blueprint.route('/auth/register', methods=['POST'])
 def register():
